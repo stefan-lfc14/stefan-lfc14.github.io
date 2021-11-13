@@ -4,3 +4,4 @@ d3.select('h1').style('color', 'blue')
 
 d3.select('body').append('p')
 .text('a new paragraph')
+.append('I am in the PI+ program at KJHS.')
