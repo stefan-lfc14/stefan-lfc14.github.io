@@ -1,6 +1,6 @@
 
-Let width = 970
-Let height = 1000
+Let width = 970;
+Let height = 1000;
 
 var svg = d3.select("#viz")
         .append("svg")
