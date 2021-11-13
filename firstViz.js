@@ -21,3 +21,14 @@ svg.append("rect")
     .attr("width", 200)
     .attr("height", 80)
     .attr("fill","lightblue")
+
+data = [30,70]
+all=svg.selectAll()
+        .data(data)
+        .enter()
+
+all.append("circle")
+    .attr("cx", (d, i) => (i+1) * 100)
+    .attr("cy", 200)
+    .attr("r", (d, i) => d)
+    .attr("fill", "lavender")
