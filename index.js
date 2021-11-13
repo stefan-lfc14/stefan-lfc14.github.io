@@ -4,4 +4,8 @@ d3.select('h1').style('color', 'blue')
 
 d3.select('body').append('p')
 .text('a new paragraph')
-.append('I am in the PI+ program at KJHS.')
+
+d3.select('body').append('p')
+.text('I am a student in the PI+ program at KJHS.')
+
+d3.selectAll('p').style('color', 'red')
